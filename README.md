@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# audio_visualizer
 
-## Getting Started
+AI has indeed come a long way in accelerating and developing front-end applications. In this scenario, I try to create an audio visualizer front-end application, within one-day, using AI code generation and using my knowledge to debug and arrange the code properly.
 
-First, run the development server:
+This implementation has been made using the **Next.js** framework with HTML, CSS, JavaScript and TypeScript.
 
-```bash
+# Implementation
+
+To run it locally, simply take a pull from the repository to your local. Start your terminal and navigate to the root directory of this project. Then, run the following command:
+
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If instead, you would like to use yarn instead of npm as your package manager. Then please run the following command:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+yarn dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Note 1**
+Oops! I do indeed see that there is a missing requirements.txt file! Be assured that it will be updated pretty soon!
 
-## Learn More
+**Note 2**
+You need to specifically pass a base64 encoded music or audio sequence in the code to be able to use the 'Sample Audio' option
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you would like to share your opinion and feedback or are just curious to know about the AI tools I used: do connect with me on [LinkedIn](https://www.linkedin.com/in/gaurav-das-95bb90212/)
